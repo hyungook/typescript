@@ -11,7 +11,7 @@
 
 
 
-  // Tuple -> interface, type alias, class 💩
+  // Tuple -> interface, type alias, class
   // 비추천 : 가독성이 떨어진다.
   // 배열이긴 배열이지만 서로 다른 타입을 함께 가질 수 있는 배열이다.
   let student: [string, number];
