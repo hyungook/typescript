@@ -37,6 +37,7 @@
   // printLoginState(state: LoginState)
   // success -> 🎉 body
   // fail -> 😭 reason
+  // function printLoginState(state: LoginState):void {    // void = 생략 가능
   function printLoginState(state: LoginState):void {
     if ('response' in state) {
       console.log(`🎉 ${state.response.body}`);

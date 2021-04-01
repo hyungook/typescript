@@ -1,3 +1,5 @@
+// discriminated
+// 차별화 하는 / 구분할 수 있는
 {
   // function: login -> success, fail ⏱
   type SuccessState = {
@@ -25,6 +27,7 @@
   // success -> 🎉 body
   // fail -> 😭 reason
   function printLoginState(state: LoginState) {
+    // state.result -> success or fail
     if (state.result === 'success') {
       console.log(`🎉 ${state.response.body}`);
     } else {
