@@ -29,4 +29,5 @@
   const json: JSON = 'json';
 
   type Boal = true;
+  
 }
